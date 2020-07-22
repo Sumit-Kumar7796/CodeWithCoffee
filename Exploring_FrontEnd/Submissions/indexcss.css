@@ -291,3 +291,15 @@ menu hamburger > i:before, menu hamburger > i:after {
 menu hamburger > i:before { transform: translate(-50%, -14px); }
 
 menu hamburger > i:after { transform: translate(-50%, 14px); }
+/*the below code is for circle fa shareable icons*/
+.fa{
+  padding : 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align:center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover{
+  opacity: 0.5;
+}
