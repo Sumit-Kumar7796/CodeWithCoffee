@@ -1,12 +1,36 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CWC3.0 Sumit Kumar</title>
-  </head>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" type="text/css" href="indexcss.css">
+</head>
+<script>
+$("#burger").click(function() {
+$(this).toggleClass("active");
+$("nav").toggleClass("show");
+});
+</script>
   <body>
-    <main><p>THis is my main code</p></main>
-    <h1>Welcome to My Website</h1>
-    <footer><p>"Here i wanted to put a fascinationg fotter</p>"</footer>
-  </body>
+    <div id="container">
+      <div id="burger">
+          <div class="bun top"></div>
+          <div class="filling"></div>
+          <div class="bun bottom"></div>
+        </div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Home</a>
+          </li>
+          <li class="green"><a href="#">Jedi</a>
+          </li>
+          <li class="red"><a href="#">Sith</a>
+          </li>
+          <li class="yellow"><a href="#">Sentinel</a>
+          </li>
+          <li class="purple"><a href="#">Samuel L. Jackson</a>
+          </li>
+        </ul>
+      </nav>
+    </body>
 </html>
